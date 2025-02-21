@@ -1,10 +1,8 @@
 import { useState, useEffect } from 'react'
 
-<<<<<<< HEAD
 import './App.css'
-=======
 import '../src/css/App.css'
->>>>>>> 1e25f3d (correccion rutas)
+
 
 
 const App = () => {
@@ -42,11 +40,11 @@ const App = () => {
       <h2>{tiempo} s</h2>
       <button onClick={iniciar} disabled={activo} >{!reanudar ? "Iniciar" : "Reanudar"} </button>
       <button onClick={pausar} disabled={!activo}  >Pausar</button>
-<<<<<<< HEAD
+
       <button onClick={reiniciar} >Reiniciar</button>
-=======
+
       <button onClick={reiniciar}  >Reiniciar</button>
->>>>>>> 1e25f3d (correccion rutas)
+
     </div>
   );
 };

@@ -42,8 +42,7 @@ const App = () => {
       <button onClick={pausar} disabled={!activo}  >Pausar</button>
 
       <button onClick={reiniciar} >Reiniciar</button>
-
-      <button onClick={reiniciar}  >Reiniciar</button>
+  
 
     </div>
   );
